@@ -1,5 +1,6 @@
 function selectionSort(arr) {
   // type your code here
+  return arr.sort(function(a,b){return a-b});
 }
 
 if (require.main === module) {
